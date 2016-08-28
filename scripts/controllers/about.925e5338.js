@@ -1,0 +1,1 @@
+"use strict";angular.module("cvApp").controller("AboutCtrl",function(){this.awesomeThings=["HTML5 Boilerplate","AngularJS","Karma"]});

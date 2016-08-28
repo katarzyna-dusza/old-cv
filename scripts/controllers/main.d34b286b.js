@@ -1,0 +1,1 @@
+"use strict";angular.module("cvApp").controller("MainCtrl",["$scope","$uibModal",function(a,b){a.openModal=function(){b.open({animation:!0,template:'<img ng-src="images/recommendation.d9e0529a.jpg">',controller:function(a,b){b.cancel=function(){a.dismiss("cancel")}},size:"sm"})}}]);

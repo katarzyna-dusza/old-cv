@@ -1,0 +1,1 @@
+"use strict";angular.module("cvApp").controller("SkillsCtrl",["$scope","$timeout","$window",function(a,b,c){a.max=100,a.js=30,a.html=30,a.css=30,a.angular=30,a.mongo=15,a.node=10,a.showPreciseCurrent=function(d){b(function(){if(0>=d)a.preciseCurrent=a.current;else{var b=c.Math;a.preciseCurrent=b.min(b.round(d),a.max)}})}}]);
